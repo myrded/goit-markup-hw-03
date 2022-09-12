@@ -1,0 +1,240 @@
+
+/* Bodu */
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--background);
+    color: var(--title);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    font-style: normal
+    
+
+}
+
+:root {
+    --accent: #2196F3;
+    --baghovfocus: #188CE8;
+    --background: #FFFFFF;
+    --title: #212121;
+    --description: #757575;
+    --bagrundherfoot: #2F303A;
+    --hederlogo: #000000;
+    --backgroundteambtn: #F5F4FA;
+    --rgba: rgba(255, 255, 255, 0.6);
+
+} 
+
+.list {
+    list-style: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* акценти (accent) #2196F3 */
+/* колір фона білий #FFFFFF */
+/* колір заголовків (title) #212121 */
+/* колір описів (description) #757575 */
+/* колір колір логотипа в хедері (logoheder) #000000 */
+/* вторичний колір фона (secbackround) #F5F4FA */
+
+/* header-nav */
+
+.header-logo {
+    color: var(--hederlogo);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none
+    
+}
+
+.logo-web {
+    color: var(--accent);
+}
+
+/* header mail-tel*/
+
+.menu-nav-link,
+.mailtel-nav-link {
+    color: var(--title);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none
+}
+
+.mailtel-nav-link {
+    color: var(--description); 
+}
+
+
+
+.menu-nav-link.current {
+    color: var(--accent);
+}
+
+/* Hero section */
+
+.hero {
+    background-color: var(--bagrundherfoot)
+}
+
+.hero-titel {
+    color: var(--background);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* Button */
+
+.button-primary {
+    color: var(--background);
+    background-color: var(--accent);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+    color: var(--background);
+    background-color: var(--baghovfocus);
+}
+
+/* Section features */
+
+.features-item-title {
+    text-transform: uppercase;
+}
+
+.features-item-description {
+    color: var(--description);
+    line-height: 1.7;
+}
+
+/* Section What do we do */
+
+.what-team-titel {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Section Our team */
+
+.team {
+    background-color: var(--backgroundteambtn);
+}
+
+.team-list-item {
+ background-color: var(--background);
+}
+
+.team-img-titel {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.team-img-description {
+    color: var(--description);
+    font-size: 16px;
+}
+
+/* Section Footer  */
+
+.footer {
+    background-color: var(--bagrundherfoot);
+}
+
+.footer-logo {
+    color: var(--background);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.footer-map-link {
+    color: var(--background);
+    font-style: normal;
+    line-height: 1.7;
+    text-decoration: none
+}
+
+.footer-meiltel-link {
+    color: var(--rgba);
+    font-style: normal;
+    line-height: 1.7;
+    text-decoration: none
+}
+
+.footer-map-link:hover,
+.footer-map-link:focus,
+.footer-meiltel-link:hover,
+.footer-meiltel-link:focus {
+    color: var(--accent);
+}
+
+/* <!-- Section portfolio --> */
+
+.button-secondary {
+    background-color: var(--backgroundteambtn);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--background);
+    background-color: var(--accent)
+}
+
+.portfolio-list-link {
+    text-decoration: none
+}
+
+.portfolio-title-img {
+    color: var(--title);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+    color: var(--description);
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+
+
