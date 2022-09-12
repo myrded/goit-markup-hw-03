@@ -93,7 +93,8 @@ body {
 /* Hero section */
 
 .hero {
-    background-color: var(--bagrundherfoot)
+    background-color: var(--bagrundherfoot);
+    margin: 0 auto;
 }
 
 .hero-titel {
