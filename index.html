@@ -13,21 +13,21 @@
 
      </head>
     <body>
-        <header>
+        <header class="header">
+        <div class="container">
             <nav>
                 <a href="./index.html" class="header-logo"><span class="logo-web">Web</span>Studio</a>
-         
-              <ul class="menu-nav list">
-                <li><a class="menu-nav-link link current" href="./index.html">Студія</a></li>
-                <li><a class="menu-nav-link link" href="./portfolio.html">Портфоліо</a></li>
-                <li><a class="menu-nav-link link" href="#">Контакти</a></li>
-             </ul>
-
+                <ul class="menu-nav list">
+                    <li class="menu-nav-item"><a class="menu-nav-link link current" href="./index.html">Студія</a></li>
+                    <li class="menu-nav-item"><a class="menu-nav-link link" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="menu-nav-item"><a class="menu-nav-link link" href="#">Контакти</a></li>
+                </ul>
             </nav> 
                 <ul class="mailtel-nav list"> 
-                    <li><a href="meilto:info@devstudio.com" class="mailtel-nav-link link">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="mailtel-nav-link link">+38 096 111 11 11</a></li>
+                    <li class="mailtel-nav-item"><a href="meilto:info@devstudio.com" class="mailtel-nav-link link">info@devstudio.com</a></li>
+                    <li class="mailtel-nav-item"><a href="tel:+380961111111" class="mailtel-nav-link link">+38 096 111 11 11</a></li>
                  </ul>
+        </div>
         </header>
 
         <main>
@@ -39,40 +39,55 @@
                 </section>
             
             <!-- Section features -->
-                <section>
+                <section class="sec-features">
+                    <div class="container">
                     <h2 class="features-titel visually-hidden">особливості</h2>
                     <ul class="features-list list">
+
                         <li class="features-item">
                             <h3 class="features-item-title">увага до деталей</h3>
                             <p class="features-item-description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                         </li>
+                        
+                        
                         <li class="features-item">
                             <h3 class="features-item-title">пунктуальність</h3>
                             <p class="features-item-description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         </li>
+                        
+                       
                         <li class="features-item">
                             <h3 class="features-item-title">планування</h3>
                             <p class="features-item-description">Так само консультація з широким активом значною мірою зумовлює.</p>
                         </li>
+                        
+
                         <li class="features-item">
                             <h3 class="features-item-title">сучасні технології</h3>
                           <p class="features-item-description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>  
                         </li>
-                    </ul>   
+                        
+                    </ul>  
+                    </div> 
                 </section>
 
             <!-- Section What do we do -->
-                <section>
-                    <h2 class="what-team-titel">Чим ми займаємося</h2>
-                    <ul class="what-list list">
-                        <li><img src="./images/development.jpg" alt="розробка кода" width="370" ></li>
-                        <li><img src="./images/interface.jpg" alt="інтерфейс" width="370" ></li>
-                        <li><img src="./images/design.jpg" alt="веб-дізайн" width="370" ></li>
-                    </ul>
+                <section class="sec-what">
+                    <div class="container">
+                            <h2 class="what-team-titel">Чим ми займаємося</h2>
+                            <div class="cont-what-list">
+                             <ul class="what-list list">
+                                <li class="what-item"><img src="./images/development.jpg" alt="розробка кода" width="370" ></li>
+                                <li class="what-item"><img src="./images/interface.jpg" alt="інтерфейс" width="370" ></li>
+                                <li class="what-item"><img src="./images/design.jpg" alt="веб-дізайн" width="370" ></li>
+                             </ul>
+                            </div>
+                    </div>
                 </section>
             
             <!-- Section Our team -->
-                <section class="team">
+                <section class="sec-team">
+                    <div class="container">
                     <h2 class="what-team-titel">Наша команда</h2>
                     <ul class="team-list list">
                         <li class="team-list-item">
@@ -96,11 +111,13 @@
                                 <p class="team-img-description">UI Designer</p> 
                         </li>
                     </ul>
+                    </div>
                 </section>
         </main>
         
         <!-- Section Footer -->
         <footer class="footer">
+            <div class="container">
             <a href="./index.html" class="footer-logo"><span class="logo-web">Web</span>Studio</a>
             <address>
                 <ul class="footer-list list">
@@ -109,6 +126,7 @@
                     <li><a class="footer-meiltel-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
+            </div>
         </footer>
      </body>
 </html>

@@ -13,6 +13,29 @@ body {
 
 }
 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+ul, 
+p {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
+
 :root {
     --accent: #2196F3;
     --baghovfocus: #188CE8;
@@ -56,15 +79,20 @@ body {
 /* вторичний колір фона (secbackround) #F5F4FA */
 
 /* header-nav */
+.header {
+    padding-top: 24px;
+}
 
 .header-logo {
     color: var(--hederlogo);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    text-decoration: none
+    text-decoration: none;
+    width: 145px;
     
 }
+
 
 .logo-web {
     color: var(--accent);
@@ -72,19 +100,37 @@ body {
 
 /* header mail-tel*/
 
+.menu-nav{
+    display: flex;
+    width: 281px;
+} 
+
+.mailtel-nav {
+    display: flex;
+}
+
+.menu-nav-item, 
+.mailtel-nav-item {
+    margin-right: 50px;
+}
+
+.menu-nav-item, 
+.mailtel-nav-item:last-child {
+    margin-right: 0;
+}
+
 .menu-nav-link,
 .mailtel-nav-link {
     color: var(--title);
     font-weight: 500;
     letter-spacing: 0.02em;
-    text-decoration: none
+    text-decoration: none;
+    margin-right: 50px;
 }
 
 .mailtel-nav-link {
-    color: var(--description); 
+    color: var(--description);
 }
-
-
 
 .menu-nav-link.current {
     color: var(--accent);
@@ -105,6 +151,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-bottom: 30px;
+    width: 696px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 /* Button */
@@ -121,6 +172,10 @@ body {
     align-items: center;
     text-align: center;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: none;
+    min-width: 216px;
 }
 
 .button-primary:hover,
@@ -131,8 +186,28 @@ body {
 
 /* Section features */
 
+.sec-features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.features-list {
+    display: flex;
+}
+
+.features-item {
+    margin-right: 30px;
+    width: 270px;
+}
+
+.features-item:last-child {
+   margin-right: 0;
+}
+
+
 .features-item-title {
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .features-item-description {
@@ -140,37 +215,72 @@ body {
     line-height: 1.7;
 }
 
+.conteiner-features-item {
+    width: 270px;
+    margin-left: 30px;
+}
+
 /* Section What do we do */
+
+.what-list {
+    display: flex;
+}
+
+.what-item {
+    margin-right: 30px;
+}
+
+.what-item:last-child {
+    margin-right: 0;
+ }
 
 .what-team-titel {
     font-size: 36px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 /* Section Our team */
 
-.team {
+.sec-team {
     background-color: var(--backgroundteambtn);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-list {
+    display: flex;
 }
 
 .team-list-item {
  background-color: var(--background);
+ margin-right: 30px;
 }
+
+.team-list-item:last-child {
+    margin-right: 0;
+ }
 
 .team-img-titel {
     font-weight: 500;
     font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 129px;
+    
 }
 
 .team-img-description {
     color: var(--description);
     font-size: 16px;
+    padding-bottom: 30px;
 }
 
 /* Section Footer  */
 
 .footer {
     background-color: var(--bagrundherfoot);
+    padding-top: 60px;
 }
 
 .footer-logo {
@@ -204,6 +314,8 @@ body {
 
 /* <!-- Section portfolio --> */
 
+
+
 .button-secondary {
     background-color: var(--backgroundteambtn);
     font-weight: 500;
@@ -236,6 +348,16 @@ body {
     font-size: 16px;
     line-height: 1.9;
 }
+
+.portfolio-filtr {
+    display: flex;
+    
+}
+
+.portfolio-filtr-item {
+    margin-left: 8px;
+}
+
 
 
 
